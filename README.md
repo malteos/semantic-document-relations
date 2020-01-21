@@ -1,5 +1,7 @@
 # Semantic Relations between Wikipedia Articles
 
+<a href="https://colab.research.google.com/github/malteos/semantic-document-relations/blob/master/demo-wikidocrel.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 Implementation, trained models and result data for the paper. 
 The supplemental material is available for download under [GitHub Releases](https://github.com/malteos/semantic-document-relations/releases).
 
@@ -55,7 +57,10 @@ python cli.py run ./output 1 wiki.bert_base__joint__seq512
 
 ## Demo
 
-TODO Notebook on Google Colab
+You can run a Jupyter notebook on Google Colab:
+
+<a href="https://colab.research.google.com/github/malteos/semantic-document-relations/blob/master/demo-wikidocrel.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
 
 ## License
 
