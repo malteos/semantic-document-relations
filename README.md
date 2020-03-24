@@ -1,9 +1,10 @@
 # Semantic Relations between Wikipedia Articles
 
-<a href="https://colab.research.google.com/github/malteos/semantic-document-relations/blob/master/demo_wikidocrel.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+<a href="https://colab.research.google.com/github/malteos/semantic-document-relations/blob/master/demo_wikidocrel.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3713183.svg)](https://doi.org/10.5281/zenodo.3713183)
 
-Implementation, trained models and result data for the paper. 
-The supplemental material is available for download under [GitHub Releases](https://github.com/malteos/semantic-document-relations/releases).
+
+Implementation, trained models and result data for the paper **Pairwise Multi-Class Document Classification for Semantic Relations between Wikipedia Articles** [(PDF on Arxiv)](https://arxiv.org/abs/2003.09881). 
+The supplemental material is available for download under [GitHub Releases](https://github.com/malteos/semantic-document-relations/releases) or [Zenodo](https://doi.org/10.5281/zenodo.3713183).
 
 ## Getting started
 
@@ -61,6 +62,20 @@ You can run a Jupyter notebook on Google Colab:
 
 <a href="https://colab.research.google.com/github/malteos/semantic-document-relations/blob/master/demo_wikidocrel.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+
+## How to cite
+
+If you are using our code, please cite [our paper](https://arxiv.org/abs/2003.09881):
+
+```bibtex
+@InProceedings{Ostendorff2020,
+  title = {Pairwise Multi-Class Document Classification for Semantic Relations between Wikipedia Articles},
+  booktitle = {Proceedings of the {ACM}/{IEEE} {Joint} {Conference} on {Digital} {Libraries} ({JCDL})},
+  author = {Ostendorff, Malte and Ruas, Terry and Schubotz, Moritz and Gipp, Bela},
+  year = {2020},
+  month = {Aug.},
+}
+```
 
 ## License
 
