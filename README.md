@@ -6,6 +6,8 @@
 Implementation, trained models and result data for the paper **Pairwise Multi-Class Document Classification for Semantic Relations between Wikipedia Articles** [(PDF on Arxiv)](https://arxiv.org/abs/2003.09881). 
 The supplemental material is available for download under [GitHub Releases](https://github.com/malteos/semantic-document-relations/releases) or [Zenodo](https://doi.org/10.5281/zenodo.3713183).
 
+![Wikipedia Relations](https://github.com/malteos/semantic-document-relations/raw/master/wikipedia_example.png)
+
 ## Getting started
 
 **Requirements:**
