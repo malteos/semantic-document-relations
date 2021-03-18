@@ -33,15 +33,24 @@ Download dataset (and pretrained models):
 cd data
 
 # Wikipedia corpus
+# - download
 wget https://github.com/malteos/semantic-document-relations/releases/download/1.0/enwiki-20191101-pages-articles.weighted.10k.jsonl.bz2
-bzip2 enwiki-20191101-pages-articles.weighted.10k.jsonl.bz2
+
+# - decompress 
+bzip2 -d enwiki-20191101-pages-articles.weighted.10k.jsonl.bz2
 
 # Train and test data
+# - download
 wget https://github.com/malteos/semantic-document-relations/releases/download/1.0/train_testdata__4folds.tar.gz
+
+# - decompress
 tar -xzf train_testdata__4folds.tar.gz
 
 # Models
+# - download
 wget https://github.com/malteos/semantic-document-relations/releases/download/1.0/model_wiki.bert_base__joint__seq512.tar.gz
+
+# - decompress
 tar -xzf model_wiki.bert_base__joint__seq512.tar.gz
 ```
 
@@ -78,6 +87,10 @@ If you are using our code, please cite [our paper](https://arxiv.org/abs/2003.09
   month = {Aug.},
 }
 ```
+
+## See also
+
+- [Aspect-based Document Similarity for Research Papers](https://github.com/malteos/aspect-document-similarity/)
 
 ## License
 
